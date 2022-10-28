@@ -1,0 +1,97 @@
+{
+	"compileOnSave": false,
+	"compilerOptions": {
+	  "baseUrl": "src",
+	  "outDir": "./dist/out-tsc",
+	  "sourceMap": true,
+	  "declaration": false,
+	  "module": "es2015",
+	  "moduleResolution": "node",
+	  "emitDecoratorMetadata": true,
+	  "experimentalDecorators": true,
+	  "importHelpers": true,
+	  "target": "es5",
+	  "paths": {
+		 "@environments/*": [
+			"environments/*"
+		 ],
+		 "@app/authentication/*": [
+			"app/_authentication/*"
+		 ],
+		 "@app/common/*": [
+			"app/_common/*"
+		 ],
+		 "@app/configs/*": [
+			"app/_configs/*"
+		 ],
+		 "@app/constants/*": [
+			"app/_constants/*"
+		 ],
+		 "@app/dialogs/*": [
+			"app/_dialogs/*"
+		 ],
+		 "@app/directives/*": [
+			"app/_directives/*"
+		 ],
+		 "@app/enums/*": [
+			"app/_enums/*"
+		 ],
+		 "@app/guards/*": [
+			"app/_guards/*"
+		 ],
+		 "@app/helper/*": [
+			"app/_helper/*"
+		 ],
+		 "@app/http/*": [
+			"app/_http/*"
+		 ],
+		 "@app/interceptors/*": [
+			"app/_interceptors/*"
+		 ],
+		 "@app/alerts/*": [
+			"app/_alerts/*"
+		 ],
+		 "@app/notifications/*": [
+			"app/_notifications/*"
+		 ],
+		 "@app/models/*": [
+			"app/_models/*"
+		 ],
+		 "@app/pipes/*": [
+			"app/_pipes/*"
+		 ],
+		 "@app/loader/*": [
+			"app/_loader/*"
+		 ],
+		 "@app/services/*": [
+			"app/_services/*"
+		 ],
+		 "@app/shared/*": [
+			"app/_shared/*"
+		 ],
+		 "@app/validator/*": [
+			"app/_validator/*"
+		 ],
+		 "@app/view/*": [
+			"app/_view/*"
+		 ],
+		 "@images/*": [
+			"./assets/images/*"
+		 ],
+		 "@css/*": [
+			"./assets/css/*"
+		 ],
+		 "@js/*": [
+			"./assets/js/*"
+		 ]
+	  },
+	  "typeRoots": [
+		 "node_modules/@types"
+	  ],
+	  "lib": [
+		 "es2018",
+		 "dom"
+	  ]
+	}
+ }
+ 
